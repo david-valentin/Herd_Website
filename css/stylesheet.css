@@ -1,0 +1,18 @@
+.divider {
+   margin-top:50px;
+   margin-bottom:5px;
+   height:1px;
+   width:100%;
+   border-top:1px solid blue;
+}
+
+/*.jumbotron {
+  background:url("")
+  background-size: cover;
+
+}*/
+
+.btn, .active {
+  transition: .4s;
+
+}

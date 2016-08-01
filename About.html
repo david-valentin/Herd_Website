@@ -1,6 +1,9 @@
 <!DOCTYPE html>
+
+
 <html lang="en">
     <head>
+        <title>Herd io</title>
         <!-- Required meta tags always come first -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,6 +11,10 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+        <!-- Individual Styling Styling -->
+        <link rel="stylesheet" type= "text/css" href="css/stylesheet.css">
+
+        <!-- Bootstrap Validation -->
       </head>
     <body id="home" data-spy="scroll" data-offset= "150" data-target=".navbar">
 
@@ -22,7 +29,7 @@
               <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
               <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
-                  </li>
+               </li>
                 </li>
                   <li id=#team class="nav-item">
                     <a class="nav-link" href="#team">Team</a>
@@ -34,6 +41,29 @@
           <a class = "navbar-brand pull-sm-right m-r-0 hidden-xs-down" href = "www.bloomberg.com">Presented by Herd io</a>
         </div>
       </nav>
+
+      <!-- <div id="fp-nav" class="right nb-fixed" style="color: rgb(0, 0, 0); margin-top: -63.5px; transform: matrix(1, 0, 0, 1, 0, 0);">
+        <ul>
+
+          <li><a href="#" class="active"
+            ><span></span>
+          </a>
+          </li>
+
+        <li><a href="#" class="">
+          <span></span>
+        </a>
+        </li>
+        <li><a href="#" class="">
+          <span></span>
+        </a>
+        </li>
+        <li><a href="#" class="go-to-content">
+            <span></span>
+          </a>
+        </li>
+      </ul>
+    </div> -->
 
       <!-- jumbotron -->
       <div class="jumbotron jumbotron-fluid bg-info">
@@ -51,36 +81,38 @@
 
       <!-- /Nav Bar -->
 
-
   <!-- container -->
     <div class="container p-t-2" id="about">
         <!-- about -->
-    <div class="row">
-        <div class="col-md-4">
-          <h3 class = "m-t-4">About Herd</h3>
-          <!-- <img src = "images/PalmTree.png" class = "img-fluid pull-xs-left"> -->
-          <p>In a small dingy garage in Palo Alto...Nope. The idea was based off a friend's github project. After doing some thinking on a cheap blow-up couch from Amazon, we thought the project could be expanded. </p>
-          <p>We wanted to build an app that gives you control the content you view and removes the excess noise of social media platforms: your Herd.</p>
+      <div class="row">
+          <div class="col-md-4">
+            <h3 class = "m-t-4">About Herd</h3>
+            <!-- <img src = "images/PalmTree.png" class = "img-fluid pull-xs-left"> -->
+            <p>In a small dingy garage in Palo Alto...Nope. The idea was based off a friend's github project. After doing some thinking on a cheap blow-up couch from Amazon, we thought the project could be expanded. </p>
+            <p>We wanted to build an app that gives you control the content you view and removes the excess noise of social media platforms: your Herd.</p>
+            </div>
+
+          <div class="col-md-4 col-md-push-4">
+            <h3 class = "m-t-4">Herd's Mission</h3>
+            <p>Bringing your closest friends together in the most seamless way possible.</p>
+            <p>You're best friends are uncoordinated, slow, and lazy but thats why they're your friends. Herd allows you to get together quickly and easily. Pick up basketball, set a waypoint, done. Your friends now know the how, where, and when. It's that simple.
+            </p>
           </div>
 
-        <div class="col-md-4 col-md-push-4">
-          <h3 class = "m-t-4">Herd's Mission</h3>
-          <p>Bringing your closest friends together in the most seamless way possible.</p>
-          <p>You're best friends are uncoordinated, slow, and lazy but thats why they're your friends. Herd allows you to get together quickly and easily. Pick up basketball, set a waypoint, done. Your friends now know the how, where, and when. It's that simple.
-          </p>
-        </div>
-
-        <div class="col-md-4 col-md-pull-4">
-          <h3 class = "m-t-4">Why Herd?</h3>
-          <p>Have you been on Facebook mobile app? Yeah, thats what I thought.</p>
-          <p>Our social mobile app blends the social with functionality. Members of a Herd share their location data with their closest friends in real time, allowing them to meet up and get togethers on the fly. Being apart of a Herd is special and important.</p>
-        </div>
+          <div class="col-md-4 col-md-pull-4">
+            <h3 class = "m-t-4">Why Herd?</h3>
+            <p>Have you been on Facebook mobile app? Yeah, thats what I thought.</p>
+            <p>Our social mobile app blends the social with functionality. Members of a Herd share their location data with their closest friends in real time, allowing them to meet up and get togethers on the fly. Being apart of a Herd is special and important.</p>
+          </div>
 
     </div><!-- /about -->
 
+    <hr class = "divider" id="team-divider">
+
     <!-- Team -->
-    <h1 id = "team" class = "display-4 text-xs-center m-y-3 text-muted p-t-3" > Team </h1>
+    <h1 id = "team" class = "display-4 text-xs-center m-y-3 text-muted" > Team </h1>
       [Team bios go here]
+
 
     <!-- Employee 1 -->
     <div class="row">
@@ -90,7 +122,8 @@
             <img class="card-img-top" data-src="..." alt="Card image cap">
             <div class="card-block col-md-push-4">
               <h4 class="card-title">David Valentin</h4>
-              <p class="card-text">At Herd, we are not about titles. But if we were, David would be the Don Corleone of the group. In purely biblical terms</p>
+              <p class="card-text">At Herd, we are not about titles,
+                but if we were, David is the Erlich Bachman of the group.</p>
             </div>
           </div>
         </div>
@@ -118,7 +151,10 @@
         </div>
 
 
-      </div><!-- /Team -->
+      </div>
+      <!-- /Team -->
+
+      <hr class="divider" id="demo-divider">
 
 
     <!-- demo -->
@@ -162,7 +198,7 @@
           <div class="col-md-6 col-xl-5">
             <p id="signup"><strong>Stay up-to-date on Herd </strong></p>
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="Email">
+              <input type="text" class="form-control" placeholder="Your Email">
               <span class="input-group-btn">
                 <button class="btn btn-primary" type="button">Sign up</button>
               </span>
@@ -181,7 +217,7 @@
           </li>
       </div>
       <div class="col-md-5 text-md-right">
-        <small>&copy; 2016 Herd &amp; Cabbage</small>
+        <small>&copy; 2016 Herd a &amp; Cabbage Systems company</small>
       </div>
     </div>
     <!-- /footer -->
@@ -192,11 +228,11 @@
     <div class="modal fade" id ="register">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div class="modal-header">
+          <div class="modal-header bg-info">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <h4 class="modal-title">Register for Herd io Waiting List</h4>
+            <h4 class="modal-title">Register for Herd io</h4>
           </div>
           <div class="modal-body">
             <!-- registration body -->
@@ -209,18 +245,36 @@
                 <label for="mail">Email:</label>
                 <input type="text" class="form-control" id="mail">
               </fieldset>
+              <hr class="m-y-s">
+              <label for="role">How did you hear about Herd?</label>
+                  <select class="c-select form-control" id="role">
+                    <option value= "1">Facebook</option>
+                    <option value="2">Email</option>
+                    <option value="3">Friend</option>
+                    <option value="4">Flyer</option>
+                  </select>
+
+              <hr class="m-y-m">
+
+              <h5>Why do you want to try Herd Beta? </h5>
+              <fieldset class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                    Social Features (i.e Rating system, Herd Loyalty Bar)
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                    Functionality Features (i.e. Waypoints, Map Features)
+                  </label>
+                </div>
+              </fieldset>
+              <button type="submit" class="btn btn-primary">Register</submit>
             </form>
-            <fieldset class="form-group">
-              <label for="role">Why Herd:</label>
-              <select>
-                <option value="full stack js developer">Full Stack JavaScript Developer</option>
-                <option value="front end developer">Front End Developer</option>
-                <option value="back end developer">Back End Developer</option>
-                <option value="designer">Designer</option>
-                <option value="student">Student</option>
-                <select>
-            </fieldset>
-            <!-- /registration body -->
+
+
 
           </div>
         </div><!-- /.modal-content -->
@@ -233,7 +287,7 @@
 
     <!-- Contribute Page -->
 
-    <div class="modal fade" id ="register">
+    <div class="modal fade in" id ="register">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -263,6 +317,7 @@
                 <option value="designer">Designer</option>
                 <option value="student">Student</option>
                 <select>
+
             </fieldset>
             <!-- /registration body -->
 
